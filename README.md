@@ -5,9 +5,9 @@ Predicting the future, it's machines that learn!
 The **ML_Models** repository contains various machine learning models aimed at predicting future outcomes based on input data. This repository showcases different algorithms and approaches used to solve predictive problems. Whether it's for fun, learning, or practical applications, these models explore the power of data and prediction.
 
 ## Contributors
-- Deep Joshi (Creator)
 - Contributor 1
 - Contributor 2
+- Deep Joshi [Chief Chaos Officer]
 
 ## Date
 May 9, 2025
