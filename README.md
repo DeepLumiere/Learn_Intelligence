@@ -17,3 +17,4 @@ May 9, 2025
 - Simple and easy-to-understand code examples.
 - Support for model evaluation and visualization.
 
+<img src="https://github.com/DeepLumiere/DeepLumiere/blob/main/design.png">
