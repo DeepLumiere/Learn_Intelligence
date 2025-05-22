@@ -35,7 +35,7 @@ class StockLSTMDataset(Dataset):
 
 
 class LSTMModel(nn.Module):
-    def __init__(self, input_size, hidden_size=64, num_layers=2, dropout_rate=0.2):  # Added dropout
+    def __init__(self, input_size, hidden_size=128, num_layers=2, dropout_rate=0.1):  # Added dropout
         super(LSTMModel, self).__init__()
         self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True,
                             dropout=dropout_rate if num_layers > 1 else 0)
