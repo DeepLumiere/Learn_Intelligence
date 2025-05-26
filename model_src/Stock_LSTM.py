@@ -218,8 +218,7 @@ def train_and_evaluate_model(X_df_full,
     mae = mean_absolute_error(y_true_unscaled, y_pred_unscaled)
     rmse = np.sqrt(mean_squared_error(y_true_unscaled, y_pred_unscaled))
     y_true_positive_mask = y_true_unscaled > 1e-6
-    mape = mean_absolute_percentage_error(y_true_unscaled[y_true_positive_mask],
-                                          y_pred_unscaled[y_true_positive_mask]) if np.sum(
+    mape = mean_absolute_percentage_error(y_true_unscaled[y_true_positive_mask], y_pred_unscaled[y_true_positive_mask]) if np.sum(
         y_true_positive_mask) > 0 else float('nan')
 
     print(f"\nMetrics for {target_name} (unscaled test data):")
