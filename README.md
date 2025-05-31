@@ -1,6 +1,6 @@
 <img src="https://github.com/DeepLumiere/DeepLumiere/blob/main/images/design-4.png">
 
-# ML_Models
+# Learn_Intelligence
 Predicting the future, it's machines that learn!
 
 ## Overview
@@ -15,7 +15,8 @@ The **ML_Models** repository contains various machine learning models aimed at p
 May 26, 2025
 
 ## Features
-- Multiple machine learning models for prediction.
+- Machine learning models for prediction.
+- PyTorch codes for learning
 - Simple and easy-to-understand code examples.
 - Support for model evaluation and visualization.
 
